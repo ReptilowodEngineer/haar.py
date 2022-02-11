@@ -2,7 +2,11 @@ from picamera import PiCamera
 camera = PiCamera()
 camera.resolution = (640, 480)
 n = str(1)
+<<<<<<< HEAD
 p='/home/pi/Desktop/10Ja/' #адрес пустой папки
+=======
+p='/home/pi/Desktop/10Jan/' #адрес пустой папки
+>>>>>>> origin/master
 #p = 'C:/Users/messi/Desktop/OpenCV_automobile/'
 y = 0
 import cv2
